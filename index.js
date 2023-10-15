@@ -77,7 +77,7 @@ function calcularResultado(){
         cardY = parseInt(cardY[1]);
         cardY > 1 ? soma += cardY : ace ++;
     }
-    if (ace > 0 && soma < 21){
+    if (ace > 0){
         for(let x = 1; x <= ace; x ++){
             if (soma + 14 > 21){
                 soma += 1;
